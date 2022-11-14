@@ -92,9 +92,6 @@ $(function(){
       $('.popup-bg').addClass('show');
       $('.mycash-item-pop').removeClass('show');
     })
-
-    
-
     $('.brend-item').click(function(){
       location.href = 'product-detail.html';
    });
@@ -120,13 +117,7 @@ $(function(){
     $('.bonus-item-pop').removeClass('show');
     $('.ecosystem-points-pup').addClass('show');
   })
-  
-  $('.cash-point-sand').click(function(){
-    console.log('hi');
-    $('.cash-transfer').addClass('show');
-    $('.popup-bg').addClass('show');
-  })
-  
+
   // if($(window).width() < 768) {
   //   console.log('500미만')
   //   $('.mb-ac').addClass('active');

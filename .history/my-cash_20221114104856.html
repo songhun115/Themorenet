@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <title>메인페이지</title>
 </head>
 
@@ -26,7 +27,7 @@
                     <li class="nav-item logo-item"><a href="#"><img src="img/logo.png" alt=""></a></li>
                 </ul>
                 <div class="logind">
-                    <a href="my-info.html">내정보</a>
+                    <a href="#">로그인</a>
                 </div>
             </header>
             <section class="info-sec01 mb-sec">
@@ -40,7 +41,7 @@
                     <div class="top-s-tit">
                         <h2>보유 <strong>76,550</strong> 캐시 (35건)</h2>
                         <div class="cash-point cash-point-sand">
-                            <div class="cash-point-sand">캐시선물</div>
+                            <span>캐시선물</span>
                         </div>
                     </div>
                     <div class="tabcontent cash-tab-content">
@@ -297,7 +298,7 @@
             
         </ul>
     </div>
-    <div class="cash-transfer popup ">
+    <div class="cash-transfer popup show">
         <div class="popup-box">
             <div class="close-x">
                 <img src="img/close-x.png" alt="">
@@ -357,14 +358,6 @@
             
         </div>
     </div>
-    <div class="popup-bg"></div>
-   <script>
-      $('.cash-point-sand').click(function(){
-    console.log('hi');
-    $('.cash-transfer').addClass('show');
-    $('.popup-bg').addClass('show');
-  })
-   </script>
 </body>
 
 </html>

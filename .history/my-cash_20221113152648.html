@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <title>메인페이지</title>
 </head>
 
@@ -26,7 +27,7 @@
                     <li class="nav-item logo-item"><a href="#"><img src="img/logo.png" alt=""></a></li>
                 </ul>
                 <div class="logind">
-                    <a href="my-info.html">내정보</a>
+                    <a href="#">로그인</a>
                 </div>
             </header>
             <section class="info-sec01 mb-sec">
@@ -39,8 +40,8 @@
                     </ul>
                     <div class="top-s-tit">
                         <h2>보유 <strong>76,550</strong> 캐시 (35건)</h2>
-                        <div class="cash-point cash-point-sand">
-                            <div class="cash-point-sand">캐시선물</div>
+                        <div class="cash-point">
+                            <span>캐시선물</span>
                         </div>
                     </div>
                     <div class="tabcontent cash-tab-content">
@@ -297,74 +298,6 @@
             
         </ul>
     </div>
-    <div class="cash-transfer popup ">
-        <div class="popup-box">
-            <div class="close-x">
-                <img src="img/close-x.png" alt="">
-            </div>
-            <h2>캐시 이체</h2>
-            <div class="cash-transfer-sec">
-                <div class="cash-transfer-form">
-                    <div class="cash-transfer-inp">
-                        <p>캐시 잔고</p>
-                        <input type="text">
-                    </div>
-                    <div class="cash-transfer-inp search input-search">
-                        <p>수신 회원</p>
-                        <input type="text" placeholder="회원번호">
-                        <img class="network-input-img input-img" src="img/network.svg" alt="">
-                        <img class="search-input-img input-img" src="img/search.png" alt="">
-                    </div>
-                    <div class="cash-transfer-inp">
-                        <p>이체 금액</p>
-                        <input type="text">
-                    </div>
-                    <div class="cash-transfer-inp">
-                       <div>
-                        <span>전달 메시지</span> 
-                        <span>선택</span>
-                       </div>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="cash-transfer-table">
-                    <ul class="cash-transfer-table-list">
-                        <li>
-                            <div>수수료(%)</div>
-                            <div>0,5</div>
-                        </li>
-                        <li>
-                            <div>수수료 공제</div>
-                            <div>보내는 분</div>
-                        </li>
-                        <li>
-                            <div>최소 금액</div>
-                            <div>5,000</div>
-                        </li>
-                    </ul>
-                </div>
-                <p>캐시를 다른 회원에게 이체합니다</p>
-                <div class="cash-confirm-btns">
-                    <div class="cash-confirm-btn">
-                        <button>취소</button>
-                    </div>
-                    <div class="cash-confirm-btn">
-                        <button>확인</button>
-                    </div>
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-    <div class="popup-bg"></div>
-   <script>
-      $('.cash-point-sand').click(function(){
-    console.log('hi');
-    $('.cash-transfer').addClass('show');
-    $('.popup-bg').addClass('show');
-  })
-   </script>
 </body>
 
 </html>

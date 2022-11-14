@@ -228,7 +228,7 @@ footer{font-family: 'Noto Sans KR', sans-serif;}
 .priduct-gift-form:first-child input{position: relative;}
 .priduct-gift-form{position: relative;}
 /* .input-list .input-box:nth-child(1)::after */
-.priduct-gift-form:first-child::after{content: "나에게";clear: both;position: absolute;top: 64%;right: 0;transform: translateY(-50%);background-color: #9C7945;border: 1px solid rgba(156, 121, 69, 0.33);border-radius: 20px;padding: 16px;color: #fff;cursor: pointer;}
+.priduct-gift-form:first-child::after{content: "조직도";clear: both;position: absolute;top: 64%;right: 0;transform: translateY(-50%);background-color: #9C7945;border: 1px solid rgba(156, 121, 69, 0.33);border-radius: 20px;padding: 16px;color: #fff;cursor: pointer;}
 .detail-sec01{position: relative;}
 .priduct-gift-form:nth-child(2){margin:0 25px}
 .priduct-gift-form{width:100%}
@@ -389,7 +389,7 @@ footer{font-family: 'Noto Sans KR', sans-serif;}
 .priduct-form{flex-direction: column;}
 .priduct-gift-form:nth-child(2){margin: 25px 0;}
 .priduct-form-con{margin-top: 30px;}
-/* .priduct-form-con,.purchase{text-align: left;} */
+.priduct-form-con,.purchase{text-align: left;}
 .purchase span:first-child{margin:0}
 .product-description p,.product-notice p{color: #787777;}
 .detail-sec03{padding-bottom: 100px;}

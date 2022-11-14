@@ -93,8 +93,12 @@ $(function(){
       $('.mycash-item-pop').removeClass('show');
     })
 
-    
-
+    $('.cash-point-sand').click(function(){
+      console.log('hi');
+      $('.cash-transfer').addClass('show');
+      $('.popup-bg').addClass('show');
+      $('.mycash-item-pop').removeClass('show');
+    })
     $('.brend-item').click(function(){
       location.href = 'product-detail.html';
    });
@@ -119,12 +123,6 @@ $(function(){
   $('.cash-transform ').click(function(){
     $('.bonus-item-pop').removeClass('show');
     $('.ecosystem-points-pup').addClass('show');
-  })
-  
-  $('.cash-point-sand').click(function(){
-    console.log('hi');
-    $('.cash-transfer').addClass('show');
-    $('.popup-bg').addClass('show');
   })
   
   // if($(window).width() < 768) {

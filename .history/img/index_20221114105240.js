@@ -126,7 +126,6 @@ $(function(){
     $('.cash-transfer').addClass('show');
     $('.popup-bg').addClass('show');
   })
-  
   // if($(window).width() < 768) {
   //   console.log('500미만')
   //   $('.mb-ac').addClass('active');

@@ -26,8 +26,8 @@
                     <li class="nav-item"><a href="#">핸드폰구매</a></li>
                 </ul>
                 <div class="nav-item logo-item"><a href="#"><img src="img/logo.png" alt=""></a></div>
-                <div class="my-logind">
-                    <a href="my-info.html">내정보</a>
+                <div class="logind">
+                    로그인
                 </div>
             </header>
             <div class="mb-header">
@@ -38,8 +38,8 @@
                 <div class="mb-nav-item">
                     <a href="#">바로가기</a>
                 </div>
-                <div class="mb-nav-item">
-                    <a href="my-info.html">내정보</a>
+                <div class="mb-nav-item login-btn">
+                    <a href="#">로그인</a>
                 </div>
             </div>
             </div>
@@ -50,36 +50,28 @@
                 </div>
                 <div class="sec01-category">
                     <ul class="sec01-category-list">
-                        <li class="sec01-category-item ">
+                        <li class="sec01-category-item">
                             <div class="category-img">
                                 <img src="img/01.svg" alt="" />
                             </div class="category-tit">
                             <div>공지사항</div>
                         </li>
                         <li class="sec01-category-item mycash-item">
-                            <div class="category-item-con">
-                                <div class="category-img">
-                                    <img src="img/02.svg" alt="" />
-                                </div class="category-tit">
-                                <div class="category-item-con2">
-                                    <div>내 캐시</div>
-                                    <p>26,650</p>
-                                </div>
-                            </div>
+                            <div class="category-img">
+                                <img src="img/02.svg" alt="" />
+                            </div class="category-tit">
+                            <div>내 캐시</div>
                             <div class="arrow-right">
                                 <img src="img/arrow-right.svg" alt="">
                             </div>
                         </li>
+                        
+                       
                         <li class="sec01-category-item bonus-item">
-                            <div class="category-item-con">
-                                <div class="category-img">
-                                    <img src="img/03.svg" alt="" />
-                                </div class="category-tit">
-                                <div class="category-item-con2">
-                                    <div>캐시백</div>
-                                    <p>6,268P</p>
-                                </div>
-                            </div>
+                            <div class="category-img">
+                                <img src="img/03.svg" alt="" />
+                            </div class="category-tit">
+                            <div>캐시백</div>
                             <div class="arrow-right">
                                 <img src="img/arrow-right.svg" alt="">
                             </div>
@@ -96,7 +88,9 @@
                             </div class="category-tit">
                             <div>추천링크</div>
                         </li>
-                        </ul>
+
+
+                    </ul>
                 </div>
             </section>
             <section class="sec02">
@@ -107,7 +101,7 @@
                 <div class="tab">
                     <ul class="tabnav main-tabnav">
                         <!-- <li><a href="#tab01">보낸 선물</a></li> -->
-                        <li><a href="#tab01">브랜드</a></li>
+                        <li><a href="#tab01">받은 선물</a></li>
                         <li><a href="#tab02">찜목록</a></li>
                         <li><a href="#tab03">선물함</a></li>
                     </ul>
@@ -1078,10 +1072,10 @@
                 <button>가상계좌</button>
             </div>
             <div class="charging-btn">
-                <button>통장입금</button>
+                <button>신용카드</button>
             </div>
             <div class="charging-btn">
-                <button>GCT입금</button>
+                <button>GCT코인</button>
             </div>
            </div>
             
@@ -1089,10 +1083,12 @@
         </div>
     </div>
     
-    <div class="tab-item-pup popup">
+    <div class="tab-item-pup popup show">
         <div class="popup-box">
             <div class=" left-back  left-back-mian">
+                <a href="index.html"> 
                 <img src="img/left-arrow.png" alt="">
+            </a>
             </div>
             <h2>커피 / 음료</h2>
             <div class="swiper mySwiper1">
@@ -1271,7 +1267,9 @@
     <div class="tab-item-pup-detail popup">
         <div class="popup-box">
             <div class=" left-back history-back">
+                
                 <img src="img/left-arrow.png" alt="">
+            
             </div>
             <h2>스타벅스</h2>
             <div class="swiper mySwiper2">
@@ -2993,11 +2991,13 @@
            </div>
         </div>
     </div>
-    <div class="popup-bg"></div>
+    <div class="popup-bg show"></div>
     <div class="bonus-item-pop popup">
         <div class="popup-box">
             <div class="close-x">
+                
                 <img src="img/close-x.png" alt="">
+            
             </div>
             <div class="tab">
                 <ul class="tabnav4 cash-tabnav">
@@ -3461,14 +3461,14 @@
             <div class="close-x">
                 <img src="img/close-x.png" alt="">
             </div>
-            <h2>생태계포인트 캐시전환</h2>
+            <h2>생태계포인트 전환</h2>
             <div class="ecosystem-point-input-box">
             <div class="ecosystem-point-input">
                 <p>포인트 보유잔고</p>
                 <input type="text" placeholder="2,018">
             </div>
             <div class="ecosystem-point-input">
-                <p>캐시로 전환할 금액</p>
+                <p>전환금액</p>
                 <input type="text">
             </div>
         </div>
