@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{color:inherit; text-decoration: none;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	position: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*! 메인 탭메뉴  */
+html,body {width:100%;  }
+body,div,ul,li{margin:0; padding:0;}
+ul,li {list-style:none;}
+
+.color{color: #9C7945;}
+/*tab css*/
+.tab{ width:100%;  }
+.tabnav{display: flex; font-size:0; width:100%; max-width: 700px; margin: 0 auto; justify-content: center;}
+.tabnav li{width:25%; text-align:center; border-right:1px solid #ddd; margin:0 15px; border-radius: 20px;  }
+
+.tabnav li a.active:before{background:#9C7945; border: 1px solid #9C7945;}
+.tabnav li a.active{border-bottom:1px solid #fff;font-weight: 700;}
+.tabnav li a{ position:relative; display:block; background: #fff; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px; border-radius: 20px; border: 1px solid #E4DCCF;}
+.tabnav li a:hover,
+.tabnav li a.active{background:#9C7945; color:#fff; }
+.tabcontent{margin:60px 0 70px 0;  }
+
+.main-tab{max-width: 950px; margin:0 auto;background: rgba(255, 255, 255, 0.6);	border: 1px solid rgba(156, 121, 69, 0.33);border-radius: 40px;}
+.tab-list{padding: 30px; place-items: center;}
+.main-tab-list{padding: 30px; place-items: center;}
+.tab-item-img + div {margin-top: 5px;}
+.tab-item-img{margin-top: -5px;}
+
+.tabnav2{display: flex; justify-content: center; font-size:0; width:100%; max-width: 700px; margin: 0 auto;}
+.tabnav2 li{text-align:center; border-right:1px solid #ddd; margin:0 5px; border-radius: 20px; }
+
+.tabnav2 li a.active:before{background:#9C7945; border: 1px solid #9C7945;}
+.tabnav2 li a.active{border-bottom:1px solid #fff;font-weight: 700;}
+.tabnav2 li a{ position:relative; display:block; background: #fff; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px; border-radius: 20px; border: 1px solid #E4DCCF;}
+.tabnav2 li a:hover,
+.tabnav2 li a.active{background:#9C7945; color:#fff; }
+.tabcontent2{margin:20px 0 70px 0;  }
+.tab2{margin-top:-40px}
+.tabnav2 li a{ line-height: 35px; text-align: center}
+
+
+.tabnav3{display: flex; justify-content: center; font-size:0; width:100%; max-width: 700px; margin: 0 auto;}
+.tabnav3 li{text-align:center; border-right:1px solid #ddd; margin:0 5px; border-radius: 20px; }
+
+.tabnav3 li a.active:before{background:#9C7945; border: 1px solid #9C7945;}
+.tabnav3 li a.active{border-bottom:1px solid #fff;font-weight: 700;}
+.tabnav3 li a{ position:relative; display:block; background: #fff; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px; border-radius: 20px; border: 1px solid #E4DCCF;}
+.tabnav3 li a:hover,
+.tabnav3 li a.active{background:#9C7945; color:#fff; }
+.tabcontent3{margin:20px 0 70px 0;  }
+.tab3{margin-top:-40px}
+.tabnav3 li a{ line-height: 35px; text-align: center}
+
+.tabnav4 li a.active:before{background:#9C7945; border: 1px solid #9C7945;}
+.tabnav4 li a.active{border-bottom:1px solid #fff;font-weight: 700;}
+.tabnav4 li a{ position:relative; display:block; background: #fff; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px; border-radius: 20px; border: 1px solid #E4DCCF;}
+.tabnav4 li a:hover,
+.tabnav4 li a.active{background:#9C7945; color:#fff; }
+.tabcontent4{margin:20px 0 70px 0;  }
+.tab4{margin-top:-40px}
+.tabnav4 li a{ line-height: 35px; text-align: center;}
+
+
+.tabnav5 li a.active:before{background:#9C7945; border: 1px solid #9C7945;}
+.tabnav5 li a.active{border-bottom:1px solid #fff;font-weight: 700;}
+.tabnav5 li a{ position:relative; display:block; background: #fff; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px; border-radius: 20px; border: 1px solid #E4DCCF;}
+.tabnav5 li a:hover,
+.tabnav5 li a.active{background:#9C7945; color:#fff; }
+.tabcontent5{margin:20px 0 70px 0;  }
+.tab5{margin-top:-40px}
+.tabnav5 li a{ line-height: 35px; text-align: center;}
+
+
+h1,h2,h3,h4,p{word-break:keep-all}
+a{display: inline-block;}
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
